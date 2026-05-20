@@ -46,13 +46,13 @@
 ### 方法一：直接复制文件（推荐）
 
 1. 下载本仓库
-2. 复制 `skills/guide.md` 到你的 Claude Code 技能目录：
+2. 复制 `skills/guide.md` 到你的 Claude Code 技能目录，并重命名为 `claude-guide.md`：
    ```bash
    # Windows
-   copy skills\guide.md %USERPROFILE%\.claude\skills\
+   copy skills\guide.md %USERPROFILE%\.claude\skills\claude-guide.md
    
    # macOS/Linux
-   cp skills/guide.md ~/.claude/skills/
+   cp skills/guide.md ~/.claude/skills/claude-guide.md
    ```
 3. 重启 Claude Code 或开启新对话
 
@@ -61,7 +61,7 @@
 ```bash
 git clone https://github.com/krishkantiuj-ren/claude-code-guide.git
 cd claude-code-guide
-cp skills/guide.md ~/.claude/skills/
+cp skills/guide.md ~/.claude/skills/claude-guide.md
 ```
 
 ## 使用方法
@@ -98,13 +98,13 @@ cp skills/guide.md ~/.claude/skills/
 
 这个技能通过 Claude Code 的技能系统工作：
 
-1. 技能文件 `guide.md` 包含详细的向导行为规则
+1. 技能文件 `claude-guide.md` 包含详细的向导行为规则
 2. Claude Code 每次对话都会自动加载技能文件
 3. 向导会根据你的选择和任务需求，自动调整行为模式
 
 ## 自定义
 
-你可以根据需要修改 `guide.md` 文件来自定义向导的行为：
+你可以根据需要修改 `claude-guide.md` 文件来自定义向导的行为：
 
 - 修改问候语
 - 调整模式选项
