@@ -1,5 +1,5 @@
 ---
-name: guide
+name: claude-guide
 description: 向导。每次对话自动开场询问，用户确认后进入待命状态；仅在用户表达任务需求时才主动生成详细流程。
 ---
 
