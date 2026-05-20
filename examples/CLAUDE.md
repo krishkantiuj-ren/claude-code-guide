@@ -12,9 +12,9 @@
 - header: "向导"
 - options:
   1. label: "需要引导", description: "进入待命状态，你提到任务时我自动帮你拆解步骤"
-  2. label: "不需要", description: "本次对话保持安静，随时输入 /guide 可重新召唤"
+  2. label: "不需要", description: "本次对话保持安静，随时输入 /claude-guide 可重新召唤"
   3. label: "保驾护航", description: "平时安静，检测到任务关键词时自动出现"
-  4. label: "永久关闭", description: "今后不再自动出现，删除 guide.md 可恢复"
+  4. label: "永久关闭", description: "今后不再自动出现，删除 claude-guide.md 可恢复"
 - multiSelect: false
 
 **注意**：等待用户选择后再继续。用户选择前不要执行任何后续逻辑。
@@ -27,7 +27,7 @@
   2. label: "快速模式", description: "跳过可选步骤，直接执行核心任务"
 - multiSelect: false
 
-详细的向导行为规则请参考 `~/.claude/skills/guide.md` 技能文件。
+详细的向导行为规则请参考 `~/.claude/skills/claude-guide.md` 技能文件。
 
 ---
 
