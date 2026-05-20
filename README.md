@@ -1,6 +1,12 @@
 # Claude Code 向导
 
-一个为 Claude Code 用户设计的交互式向导技能，帮助你更好地使用 Claude Code 完成各种任务。
+> 不管你是刚接触 Claude Code 的新手，还是想要优化工作流程的老手，这个技能都是你的必备之选。
+
+## 为什么需要这个技能？
+
+**新手视角**：你刚安装了 Claude Code，打开对话框却不知道从何下手。这个技能会在每次对话开始时自动出现，像一个贴心的向导，引导你完成任何任务。
+
+**老手视角**：你已经熟悉 Claude Code，但想要更高效的工作流程。这个技能可以帮你自动拆解复杂任务、生成详细流程、检测不耐烦情绪并切换模式。
 
 ## 功能特点
 
@@ -32,7 +38,7 @@
 ### 方法二：克隆仓库
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-code-guide.git
+git clone https://github.com/krishkantiuj-ren/claude-code-guide.git
 cd claude-code-guide
 cp skills/guide.md ~/.claude/skills/
 ```
@@ -95,3 +101,7 @@ MIT License
 ## 致谢
 
 感谢 Claude Code 提供的技能系统，让这个向导得以实现。
+
+---
+
+**如果这个项目对您有帮助，请帮我点亮星星⭐！**
