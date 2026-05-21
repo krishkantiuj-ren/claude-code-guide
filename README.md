@@ -6,7 +6,6 @@
 
 ![演示1](images/屏幕截图%202026-05-20%20210045.png)
 ![演示2](images/屏幕截图%202026-05-20%20210102.png)
-![演示3](images/屏幕截图%202026-05-20%20210149.png)
 
 ## 为什么需要这个技能？
 
@@ -60,7 +59,7 @@
 ### 方法二：克隆仓库
 
 ```bash
-git clone https://github.com/krishkantiuj-ren/claude-code-guide.git
+git clone https://github.com/你的用户名/claude-code-guide.git
 cd claude-code-guide
 cp skills/guide.md ~/.claude/skills/claude-guide.md
 ```
