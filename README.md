@@ -54,8 +54,8 @@ Codex 更适合把这份规则放进项目级 `AGENTS.md`，或放进你常用�
 ## 克隆仓库
 
 ```bash
-git clone https://github.com/krishkantiuj-ren/claude-code-guide.git
-cd claude-code-guide
+git clone https://github.com/krishkantiuj-ren/agent-guide-system.git
+cd agent-guide-system
 ```
 
 ## 使用方式
